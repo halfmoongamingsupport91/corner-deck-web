@@ -20,7 +20,7 @@ jobs:
       - name: Download release asset
         run: |
           mkdir site
-          curl -fL -o web.zip https://github.com/halfmoongamingsupport91/corner-deck-web/releases/download/web-0.16.7/corner-deck-web-0.16.7.zip
+          curl -fL -o web.zip https://github.com/halfmoongamingsupport91/corner-deck-web/releases/download/web-0.16.8/corner-deck-web-0.16.8.zip
           unzip -q web.zip -d site
           touch site/.nojekyll
           ls -la site
